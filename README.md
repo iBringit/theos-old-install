@@ -20,6 +20,8 @@ Set up the THEOS environment variable:
 
 ````
 echo "export THEOS=~/theos" >> ~/.profile
+echo 'alias theos="$THEOS/bin/nic.pl"' >>~/.profile
+source ~/.profile
 
 ````
 
